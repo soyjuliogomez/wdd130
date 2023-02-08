@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+
+ }
 #content {
     max-width: 1600px;
     /* background-color: antiquewhite; */
@@ -6,8 +24,13 @@
 
 
 
-/* #content */ #hero-msg h1 {
+/* #content */
+#hero-msg h1 {
     text-align: center;
+    line-height: 1.5em;
+    /* background-color: #6f7364; */
+    font-family: 'Rozha One',  Georgia, serif;
+    
     
 }
 
@@ -19,10 +42,15 @@
     text-align: center;
 }
 
+
 .main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+    
+}
 #background {
     height: 725px;
     background-color: aqua;
@@ -44,6 +72,7 @@ nav a {
     height: 48px;
     color: #21a6ff;
     text-decoration: none;
+    padding: 35px;
 
 }
 
@@ -57,9 +86,15 @@ nav a:hover {
 .book {
     background-color: #00afb9;
     text-decoration: none;
-    padding: 8px;
+    padding: 15px 30px;
     color: #ffffff;
+    font-size: 18px;
+    font-family: 'open sans', Helvetica, sans-serif ;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
+
 .book:hover {
     background-color: #00949c;
     color: #ffffff;
@@ -78,6 +113,7 @@ nav a:hover {
 
 .msg {
     background-color: #f4f1bb;
+    padding: 35px;
 }
 
 
@@ -88,6 +124,9 @@ nav a:hover {
 
 .home-title {
     color: #122c3d;
+    font-family: 'Rozha One',  Georgia, serif;
+    font-size: 2em;
+    margin-top: 10px;
 
 
 }
@@ -98,16 +137,16 @@ h4 {
 
 
 
-.book:hover {
 
-    color: #1f0270;
-}
 
 .join {
     background-color: #00afb9;
     text-decoration: none;
     padding: 8px;
     color: #ffffff;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover {
     background-color: #00949c;
@@ -117,17 +156,34 @@ h4 {
 
 .msg h2 {
     color: #012a4a;
+    font-family: 'Rozha One',  Georgia, serif;
 
 }
 
 .msg p {
     color: #122c3d;
+    font-size: 8em;
+    font-family: 'open sans', Helvetica, sans-serif;
+    padding-bottom: 15px;
+    
+}
+.rivers-card, .camping-card, .rapids-card  {  
+    margin: 200px 0;
+
 }
 
+.card-img {
+    border: 10px solid #111111;
+}
+/* .rapids-card  {
+    margin: 200px 0;
+} */
 
 footer {
     color: #122c3d;
     background-color: #1b3a4b;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -146,8 +202,12 @@ footer p {
 }
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
+footer .social img {
+    padding-top: 15px;
+
+}  
 
 .logo {
     width: 80px;
@@ -155,4 +215,5 @@ footer p a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
