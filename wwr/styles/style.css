@@ -10,6 +10,7 @@ body {
 }
 h2 {
     margin: 0;
+    font-family: 'Rozha One',  Georgia, serif;
 }
 
 #logo_link {
@@ -157,6 +158,7 @@ h4 {
 .msg h2 {
     color: #012a4a;
     font-family: 'Rozha One',  Georgia, serif;
+    
 
 }
 
