@@ -102,8 +102,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #21a6ff;
-    color: #0062a3;
+    
+    color: #ffffff;
     
    
 }
@@ -251,7 +251,8 @@ h4 {
 }
 
 .card-img {
-    border: 10px solid #111111;
+    border: 10px solid #012a4a;
+    box-shadow: 5px 5px 10px #02192080;
 }
 
 .card-img:hover {
@@ -339,7 +340,9 @@ footer .social img {
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
-        width: 60%;
+        width: 100%;
+        
+        
     }
     #background {
         display: none;
