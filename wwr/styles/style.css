@@ -311,6 +311,151 @@ footer .social img {
     padding-top: 10px;
 }
 
+/* Rivers page styles*/
+#hero-rivers {
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+    
+}
+#hero-box-rivers {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    height: 570px;
+    width: 100%;
+    
+    background: #001424;
+    /* overflow: hidden; */
+
+}
+
+#hero-rivers img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    opacity: 30%;
+    /* height: 420px; */
+}
+
+#hero-rivers .home-title-rivers {
+    
+    color: #ffffff;
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Rozha One', Georgia, serif;
+    /* padding: 0px !important; */
+    margin-bottom: 0px !important;
+    margin-top: 86px !important;
+}
+
+.home-paragraph-rivers {
+    color: #ffffff;
+    text-align: center;
+}
+
+#hero-rivers hr {
+    height: 10px;
+    width: 242px;
+    border-style: none;
+    /* border-style: dashed; */
+    background: #5AD7FF;
+}
+
+.home-grid-rivers {
+    margin-top: 96px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-rows: max-content;
+    column-gap: 32px;
+    row-gap: 16px;
+    
+    
+    
+
+}
+
+.home-grid-rivers > .riverspage-card {
+    
+    background-color: #edfdff;
+    /* width: 100%; */
+    padding: 32px;
+    max-width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    
+    /* height: 100%; */
+    
+}
+/* .home-grid-rivers > .riverspage-card > img {} */
+    /* width: 100%; */
+    /* width: 100%; */
+    /* display: inline; */
+
+        
+.home-grid-rivers img {
+    /* aspect-ratio: 6 / 1; */
+    /* display: inline; */
+    width: 100%;
+    
+    
+    background: #021920;
+    object-fit: cover;
+    object-position: center;
+    /* height: 100px; */
+    /* object-position: center; */
+    height: 360px;
+    border-radius: 8px;
+    transition: all 300ms;
+    
+    
+}
+
+.home-grid-rivers img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    
+}
+
+.home-grid-rivers > .riverspage-card > .h2-river {
+    margin-top: 24px;
+    color: #012a4a;
+}
+
+/* testimonials */
+
+.testimonials{
+    
+    margin-top: 96px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-rows: max-content;
+    column-gap: 32px;
+}
+
+main .testimonials > section > .user-avatar-river {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 96px;
+    height: auto;
+    opacity: 100%;
+}
+/* .home-grid-rivers > .riverspage-card > .card-img-rivers {} */
+    
+    /* opacity: 50%; */
+    /* width: 100%; */
+    
+    
+
+              
+
+
+
+
 /* responsive design */
 
 @media screen and (max-width: 900px) {
