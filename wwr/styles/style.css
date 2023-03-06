@@ -13,6 +13,11 @@ h2 {
     font-family: 'Rozha One',  Georgia, serif;
 }
 
+h1 {
+    margin: 0;
+    font-family: 'Rozha One',  Georgia, serif;
+    color: #012a4a;
+}
 #logo_link {
     padding-top: 5px;
     padding-top: 5px;
@@ -482,6 +487,16 @@ main > .testimonials > .testimonials-heading {
     max-width: 700px;
 }
 
+.gallery {
+    margin-top: 144px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.gallery > .heading-gallery {
+    max-width: 720px;
+}
 /* main .testimonials > .testimonials-ful > .paragraph_small {
     font-size: 12px;
 } */
